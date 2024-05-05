@@ -15,13 +15,11 @@ const clearDisplay = () => display.value = "";
 function calculate(){
     //try statemente to execute code and look for errors
     try {
-        display.value = eval(display.value)// eval function takes an expression and evalutes and gives a result 
-                                           // like a calculator     
+        display.value = eval(display.value)// eval function takes an expression and evalutes and gives a result  
     }
     //catch(error) if there's an error we will catch it here and display an error
     catch(error) {
         display.value = "Error"
     }
-
 }
  
