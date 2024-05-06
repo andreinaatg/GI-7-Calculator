@@ -20,13 +20,14 @@ Press . for decimal point.
 Press Enter to calculate the result.
 Press Esc to clear the calculator.
 The result will be displayed in the calculator screen.
+
 File Structure
 calc.html: HTML file containing the calculator interface.
 calc.css: CSS file for styling the calculator.
 calc.js: JavaScript file containing the calculator logic.
+
 Setup
 To run the calculator locally:
-
 Clone this repository to your local machine:
 bash
 Copy code
